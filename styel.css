@@ -7,7 +7,7 @@ body {
   background-color: greenyellow;
   color: black;
 }
-/* header style */
+/* MARK: header style */
 .header {
   width: 100%;
   height: 100vh;
@@ -64,7 +64,7 @@ nav ul li a:hover::after {
 span {
   color: red;
 }
-/* about part */
+/* MARK: About part */
 .about {
   width: 100%;
   padding: 100px 0px;
@@ -125,7 +125,7 @@ button:hover {
   border: 2px solid red;
   cursor: pointer;
 }
-/* form 2 */
+/*MARK: Services style*/
 .services {
   padding: 30px 0;
   background-image: url(image/3rd\ background.jpg);
@@ -134,10 +134,7 @@ button:hover {
 }
 .sub-title {
   color: white;
-  /* margin-left:40%;
-font-size: 60px; */
 }
-
 .services-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -173,7 +170,7 @@ font-size: 60px; */
   background-color: #ff004f;
   transform: translateY(-10px);
 }
-/*form 3 */
+/*MARK:My work part style */
 .portfolio {
   padding: 50px 0;
   background-image: url(image/4th\ background.jpg);
