@@ -248,3 +248,111 @@ button:hover {
 .btn:hover {
   background: #ff004f;
 }
+/* MARK: login */
+/* login */
+.container-login {
+  width: fit-content;
+  margin-top: 20px;
+  display: flex;
+  margin-left: 45%;
+  justify-content: center;
+  align-items: center;
+}
+.cont-title {
+  font-weight: 600;
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+}
+.btn2 {
+  border-radius: 30px;
+  margin-top: 20px;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.social-icon:hover {
+  color: red;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  height: 50px;
+}
+.inp input {
+  border-radius: 5px;
+}
+.inp textarea {
+  border-radius: 5px;
+}
+.footer i {
+  color: red;
+}
+nav .icon {
+  display: none;
+  color: white;
+}
+.inp textarea {
+  margin-top: 5px;
+}
+/*MARK: media quary */
+@media screen and (max-width: 600px) {
+  .header {
+    background-image: url(Picsart_24-09-26_14-40-23-653.jpg);
+  }
+  .header-text {
+    margin-top: 100%;
+    font-size: 16px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+  nav .icon {
+    display: block;
+    color: white;
+    font-size: 25px;
+  }
+  nav ul {
+    background-color: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .about-text h2 {
+    font-size: 20px;
+  }
+  .footer p {
+    margin-bottom: 30px;
+  }
+  .container-login {
+    margin-left: 35%;
+  }
+  .about img {
+    width: 250px;
+  }
+  .about-text {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
