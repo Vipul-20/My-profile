@@ -154,26 +154,44 @@
       </div>
     </div>
     <!--MARK: login Page-->
-    <div class="container-login">
-      <div>
-        <h1 class="cont-title">Contact me</h1>
-        <form  class="inp">
-        <i><ion-icon name="menu"></ion-icon></i>
-        <input type="text" name="name" id="" placeholder="Enter your name" required> <br>
-        <i><ion-icon name="menu"></ion-icon></i>
-        <input type="email" name="email" id="" placeholder="Enter your email" required> <br>
-        <i><ion-icon name="menu"></ion-icon></i>
-        <textarea name="message" rows="6" placeholder="your message"></textarea>
-        <div class="social-icon">
-          <a href="#"><i><ion-icon name="logo-facebook"></ion-icon></i></a>
-          <a href="#"><i><ion-icon name="logo-instagram"></ion-icon></i></a>
-          <a href="#"><i><ion-icon name="logo-twitter"></ion-icon></i></a>
-          <a href="#"><i><ion-icon name="logo-linkedin"></ion-icon></i></a>
-        </div>
-        <button type="submit" class="btn btn2">submit</button>
-      </form>
-      </div>
+    <div class="login-light"></div>
+    <div class="login-box">
+        <form action="#">
+            <input type="checkbox" class="input-check" id="input-check">
+            <label for="input-check" class="toggle">
+                <span class="text off">off</span>
+                <span class="text on">on</span>
+            </label>
+            <div class="light"></div>
+
+            <h2>Login</h2>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember me</label>
+                <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="btn-login">Login</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
     </div>
+
     <div class="footer">
       <footer><p>copyright _ Vipul . Made With <i><ion-icon name="heart"></ion-icon></i> By Easy Tutorials</p></footer>
     </div>
