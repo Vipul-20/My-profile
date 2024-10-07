@@ -259,9 +259,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 550px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px auto;
 }
 
 h2 {
