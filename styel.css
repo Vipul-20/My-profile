@@ -4,7 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: greenyellow;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(8, 30, 190, 1) 83%
+  );
   color: black;
 }
 /* MARK: header style */
@@ -530,6 +535,16 @@ h2 {
   color: #00f7ff;
   text-shadow: 0 0 15px #00f7ff, 0 0 30px #00f7ff, 0 0 45px #00f7ff,
     0 0 60px #00f7ff;
+}
+/* icon */
+.Social-icon {
+  display: inline-flex;
+  margin-top: 10px;
+  margin-left: 60px;
+  color: white;
+}
+.Social-icon:hover {
+  color: red;
 }
 /* MARK:footer */
 .social-icon {
