@@ -578,3 +578,62 @@ nav .icon {
 .inp textarea {
   margin-top: 5px;
 }
+/* media quary */
+@media screen and (max-width: 450px) {
+  .header {
+    background-image: url("image/before.jpg");
+  }
+  .header-text {
+    margin-top: 100%;
+    font-size: 16px;
+  }
+  .header-text p {
+    position: absolute;
+    margin-top: 150px;
+  }
+  .header-text h1 {
+    font-size: 30px;
+  }
+  nav .icon {
+    display: block;
+    color: white;
+    font-size: 25px;
+  }
+  nav ul {
+    background-color: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    z-index: 2;
+    transition: right 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 25px;
+  }
+  nav ul .icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+  .about-text h2 {
+    font-size: 20px;
+  }
+  .footer p {
+    margin-bottom: 30px;
+  }
+  .container-login {
+    margin-left: 35%;
+  }
+  .about img {
+    width: 250px;
+  }
+  .about-text {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+}
