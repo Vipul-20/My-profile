@@ -994,4 +994,17 @@ video {
     font-size: 15px;
     margin-left: 10px;
   }
+  .main {
+    flex-direction: column;
+  }
+  .about img {
+    width: 250px;
+    margin-left: 5px;
+  }
+  .about-text h5 {
+    margin-left: 150px;
+  }
+  .about-text button {
+    margin-left: 208px;
+  }
 }
