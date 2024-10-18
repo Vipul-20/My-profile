@@ -20,7 +20,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-.cantainer {
+.container {
   padding: 10px 10%;
 }
 nav {
@@ -941,9 +941,6 @@ video {
   .header {
     background-image: url("image/before.jpg");
   }
-  .header-text {
-    margin-top: 500px;
-  }
   /* .header-text p {
     position: absolute;
     margin-top: 150px;
@@ -1011,5 +1008,21 @@ video {
     word-wrap: break-word;
     margin-left: 53px;
     font-size: 17px;
+  }
+  /* some changes */
+  * {
+    display: revert-layer;
+  }
+  .header-text {
+    margin-top: 520px;
+  }
+  /* .container {
+    margin-left: -41px;
+  } */
+  .login-box {
+    margin: 30px -30px;
+  }
+  .toggle {
+    display: none;
   }
 }
