@@ -942,13 +942,12 @@ video {
     background-image: url("image/before.jpg");
   }
   .header-text {
-    margin-top: 100%;
-    font-size: 16px;
+    margin-top: 500px;
   }
-  .header-text p {
+  /* .header-text p {
     position: absolute;
     margin-top: 150px;
-  }
+  } */
   .header-text h1 {
     font-size: 30px;
   }
@@ -1006,5 +1005,11 @@ video {
   }
   .about-text button {
     margin-left: 208px;
+  }
+  .about-text p {
+    width: 450px;
+    word-wrap: break-word;
+    margin-left: 53px;
+    font-size: 17px;
   }
 }
